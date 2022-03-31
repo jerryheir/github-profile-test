@@ -1,0 +1,3 @@
+export {
+    getSearchResults,
+} from './main';

@@ -1,0 +1,62 @@
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+
+html,
+body, div, input, button {
+  font-family: Rubik !important;
+  transition: all 0.2s ease-in-out;
+}
+
+  @font-face {
+    font-family: "Rubik";
+    src: url(/Assets/Fonts/Rubik-Bold.ttf) format("truetype");
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Rubik";
+    src: url(/Assets/Fonts/Rubik-BoldItalic.ttf) format("truetype");
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Rubik";
+    src: url(/Assets/Fonts/Rubik-Italic.ttf) format("truetype");
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Rubik";
+    src: url(/Assets/Fonts/Rubik-Light.ttf) format("truetype");
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Rubik";
+    src: url(/Assets/Fonts/Rubik-LightItalic.ttf) format("truetype");
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Rubik";
+    src: url(/Assets/Fonts/Rubik-Medium.ttf)format("truetype");
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Rubik";
+    src: url(/Assets/Fonts/Rubik-MediumItalic.ttf) format("truetype");
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Rubik";
+    src: url(/Assets/Fonts/Rubik-SemiBold.ttf) format("truetype");
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Rubik";
+    src: url(/Assets/Fonts/Rubik-Regular.ttf) format("truetype");
+    font-display: swap;
+  }

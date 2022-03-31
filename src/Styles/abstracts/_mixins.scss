@@ -1,0 +1,27 @@
+@mixin disable-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@mixin max-content {
+  width: -moz-max-content;
+  width: -webkit-max-content;
+  width: max-content;
+}
+
+@mixin min-content {
+  width: -moz-min-content;
+  width: -webkit-min-content;
+  width: min-content;
+}
+
+@mixin fit-content {
+  width: -moz-fit-content;
+  width: -webkit-fit-content;
+  width: fit-content;
+}
